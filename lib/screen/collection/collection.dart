@@ -41,6 +41,7 @@ class CollectionPage extends StatelessWidget {
       body: ListView.builder(
         scrollDirection: Axis.vertical,
         shrinkWrap: true,
+        physics: const ScrollPhysics(),
         itemCount: collections.length,
         itemBuilder: (ctx, index) {
           return GestureDetector(

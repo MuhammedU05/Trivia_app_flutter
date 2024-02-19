@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:provider/provider.dart';
 import 'package:trivia_with_flutter/screen/entry/entry_screen.dart';
-import 'package:trivia_with_flutter/screen/splash_screen/splash_screen.dart';
 import 'package:trivia_with_flutter/utils/providers/navigation/navigatorprovider.dart';
 import 'package:trivia_with_flutter/utils/providers/theme/themeprovider.dart';
 
@@ -34,7 +33,7 @@ class MainApp extends StatelessWidget {
         debugShowCheckedModeBanner: false,
         home: Consumer<ThemeProvider>(
           builder: (context, themeProvider, child) {
-            return const LoadingLetter();
+            return const EntryPage();
           },
         ),
       ),
