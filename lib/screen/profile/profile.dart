@@ -218,6 +218,16 @@ class Profile extends StatelessWidget {
                 ),
               ),
             ),
+            Padding(
+              padding: const EdgeInsets.all(15.0),
+              child: Container(
+                height: 45,
+                decoration:BoxDecoration(
+                  color: Colors.black12,
+                  borderRadius: BorderRadius.circular(50)
+                ) ,
+              ),
+            )
             // const Divider(),
 
             // Padding(
@@ -247,6 +257,8 @@ class Profile extends StatelessWidget {
             // Padding(
             //   padding: EdgeInsets.only(
             // )
+            //ERROR
+            
           ],
         ),
       ),
