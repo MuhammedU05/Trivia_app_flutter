@@ -68,16 +68,16 @@ class Profile extends StatelessWidget {
                         left: screenSize.width * .345,
                         top: screenSize.height * .162),
                     child: const CircleAvatar(
-                      radius: 57,
+                      radius: 58,
                       backgroundColor: Colors.white,
                     ),
                   ),
                   Padding(
                     padding: EdgeInsets.only(
-                        left: screenSize.width * .35,
-                        top: screenSize.height * .163),
+                        left: screenSize.width * .350,
+                        top: screenSize.height * .164),
                     child: CircleAvatar(
-                      radius: 55,
+                      radius: 56,
                       backgroundImage: AssetImage(img),
                     ),
                   ),
@@ -199,6 +199,7 @@ class Profile extends StatelessWidget {
                 ],
               ),
             ),
+
             Center(
               child: TextButton(
                 onPressed: () {},
@@ -212,9 +213,8 @@ class Profile extends StatelessWidget {
                     ),
                   ),
                   decoration: BoxDecoration(
-                    color: Color.fromARGB(255, 156, 156, 156),
-                          borderRadius: BorderRadius.circular(50)
-                  ),
+                      color: Color.fromARGB(255, 96, 96, 96),
+                      borderRadius: BorderRadius.circular(50)),
                 ),
               ),
             ),
@@ -293,7 +293,7 @@ class Profile extends StatelessWidget {
       //         //   padding: EdgeInsets.only(
       //         //     top: 40,
       //         //     right: 350,
-      //         //   ),
+      //   ),
       //         //   child: IconButton(
       //         //       onPressed: () {},
       //         //       icon: Icon(Icons.arrow_back, color: Colors.white70)),
@@ -396,7 +396,7 @@ class Profile extends StatelessWidget {
       //                 top: screenSize.height * 0.55, left: screenSize.width * 0.05),
       //                 child: Text('Attempts\n34',
       //                 style:
-      //                optionStyle,),)
+      //  optionStyle,),)
       //       //   ],
       //       // ),
       //     // ),
