@@ -12,8 +12,8 @@ class ThemeProvider extends ChangeNotifier {
     try {
       _isLightTheme = !_isLightTheme;
       // notifyListeners();
-      print("Light theme changed : $isLightTheme");
-      print("__Light theme changed : $_isLightTheme");
+      // print("Light theme changed : $isLightTheme");
+      // print("__Light theme changed : $_isLightTheme");
       notifyListeners();
     } on Exception catch (e) {
       // notifyListeners();

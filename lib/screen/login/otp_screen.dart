@@ -1,8 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-
-// ignore: unused_import
-import '../../main.dart';
 import '../../utils/colours/colors.dart';
 import '../../utils/providers/theme/themeprovider.dart';
 import '../../utils/strings/strings.dart';

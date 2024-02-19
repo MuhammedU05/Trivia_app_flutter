@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+import 'package:trivia_with_flutter/screen/collection/collection.dart';
 import 'package:trivia_with_flutter/screen/home/bottom_nav_bar.dart';
+import 'package:trivia_with_flutter/screen/leaderboard/leaderboard.dart';
 import 'package:trivia_with_flutter/screen/nav_home/nav_home_page.dart';
 import 'package:trivia_with_flutter/screen/profile/profile.dart';
 import 'package:trivia_with_flutter/utils/colours/colors.dart';
@@ -30,18 +32,12 @@ class _HomePageState extends State<HomePage> {
 
     List<Widget> widgetOptions = <Widget>[
     NavHomePage(themeProvider: themeProvider,),
-    Text(
-      'Collection',
-      style: optionStyle,
-    ),
+    const CollectionPage(),
     Text(
       'Play',
       style: optionStyle,
     ),
-    Text(
-      'Leaderboard',
-      style: optionStyle,
-    ),
+    const LeaderboardPage(),
     const Profile()
   ];
     // final Color textColor =
