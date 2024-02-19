@@ -1,10 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-<<<<<<< HEAD
+
 // ignore: unused_import
 import 'package:trivia_with_flutter/main.dart';
-=======
->>>>>>> b62d1e575b89108fef04b5d77a5ed9073c977e8a
+
 import 'package:trivia_with_flutter/utils/colours/colors.dart';
 import 'package:trivia_with_flutter/utils/providers/theme/themeprovider.dart';
 

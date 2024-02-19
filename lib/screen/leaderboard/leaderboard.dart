@@ -11,6 +11,7 @@ class LeaderboardPage extends StatelessWidget {
   Widget build(BuildContext context) {
     var themeProvider = context.watch<ThemeProvider>();
     Size screenSize = MediaQuery.of(context).size;
+    // ignore: unused_local_variable
     TextStyle titleStyle = TextStyle(
       fontSize: 21,
       fontWeight: FontWeight.bold,

@@ -250,6 +250,7 @@ class Profile extends StatelessWidget {
           ],
         ),
       ),
+      
       // body: Column(
       //   // crossAxisAlignment: CrossAxisAlignment.center,
       //   // mainAxisAlignment: MainAxisAlignment.start,
@@ -402,6 +403,7 @@ class Profile extends StatelessWidget {
       //     // ),
       //   ],
       // ),
+      
     );
   }
 }
