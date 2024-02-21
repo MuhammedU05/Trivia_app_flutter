@@ -221,13 +221,64 @@ class Profile extends StatelessWidget {
             Padding(
               padding: const EdgeInsets.all(15.0),
               child: Container(
-                height: 45,
+                height: 50,
+                width: double.infinity,
                 decoration:BoxDecoration(
-                  color: Colors.black12,
+                  color: Colors.black38,
                   borderRadius: BorderRadius.circular(50)
-                ) ,
+                ),
+                child: Row(
+                  children: [
+                    TextButton(onPressed: () {},child: Container(
+                      width: 110,
+                      height: 45,
+                      decoration: BoxDecoration(
+                        color: Colors.white,
+                        borderRadius: BorderRadius.circular(100)
+                      ),
+                      child: Center(
+                        child: Text('Quizer',
+                        style: TextStyle(
+                          color: Colors.black,
+                          fontSize: 20
+                        ),
+                        ),
+                      )),),
+                 Container(
+                  width: 110,
+                  height: 45,
+                  decoration: BoxDecoration(
+                    borderRadius: BorderRadius.circular(100)
+                  ),
+                  child: Center(
+                    child: Text('Collections',
+                    style: TextStyle(
+                      color: Colors.black,
+                      fontSize: 20
+                    ),
+                    ),
+                  )),
+                  Container(
+                  width: 110,
+                  height: 45,
+                  decoration: BoxDecoration(
+                    borderRadius: BorderRadius.circular(100)
+                  ),
+                  child: Center(
+                    child: Text('About',
+                    style: TextStyle(
+                      color: Colors.black,
+                      fontSize: 20
+                    ),
+                    ),
+                  )),
+                  ],
+                ),
               ),
-            )
+            ),
+            
+          
+          
             // const Divider(),
 
             // Padding(
@@ -257,7 +308,6 @@ class Profile extends StatelessWidget {
             // Padding(
             //   padding: EdgeInsets.only(
             // )
-            //ERROR
             
           ],
         ),
