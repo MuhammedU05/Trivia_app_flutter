@@ -237,7 +237,7 @@ class Profile extends StatelessWidget {
                         borderRadius: BorderRadius.circular(100)
                       ),
                       child: Center(
-                        child: Text('Quizer',
+                        child: Text('Collections',
                         style: TextStyle(
                           color: Colors.black,
                           fontSize: 20
@@ -251,7 +251,7 @@ class Profile extends StatelessWidget {
                     borderRadius: BorderRadius.circular(100)
                   ),
                   child: Center(
-                    child: Text('Collections',
+                    child: Text('Quizer',
                     style: TextStyle(
                       color: Colors.black,
                       fontSize: 20
@@ -276,9 +276,62 @@ class Profile extends StatelessWidget {
                 ),
               ),
             ),
-            
-          
-          
+            Padding(
+              padding: const EdgeInsets.only(left:20),
+              child: Text('Collections',
+              style: TextStyle(color: Colors.black,
+              fontSize: 24,
+              fontWeight: FontWeight.bold
+              ),),
+            ),
+            Padding(
+              padding: const EdgeInsets.all(20),
+              child: Row(
+                children: [
+                  Container(
+                    width: 150,
+                    height: 110,
+                    decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(30),
+                      image: DecorationImage(image:AssetImage('assets/81qfiIZ1qpL._AC_UF1000,1000_QL80_.jpg'),
+                      fit: BoxFit.fill )
+                    ),
+                  ),
+                  Padding(
+                    padding: const EdgeInsets.only(left: 20),
+                    child: Text('General Knowledge',
+                    style: TextStyle(
+                      fontSize: 20,
+                      fontWeight: FontWeight.bold
+                    ),),
+                  ),
+                ],
+              ),
+            ),
+            Padding(
+              padding: const EdgeInsets.all(20),
+              child: Row(
+                children: [
+                  Container(
+                    width: 150,
+                    height: 110,
+                    decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(30),
+                      image: DecorationImage(image:AssetImage('assets/south-africa-hluhluwe-giraffes-pattern.jpg'),
+                      fit: BoxFit.fill )
+                    ),
+                  ),
+                  Padding(
+                    padding: const EdgeInsets.only(left: 60),
+                    child: Text('Animals',
+                    style: TextStyle(
+                      fontSize: 20,
+                      fontWeight: FontWeight.bold
+                    ),),
+                  ),
+                ],
+              ),
+            )
             // const Divider(),
 
             // Padding(
