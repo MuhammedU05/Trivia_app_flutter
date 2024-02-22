@@ -34,6 +34,7 @@ class MainApp extends StatelessWidget {
         // ChangeNotifierProvider(create: (_) => ""()),
       ],
       child: MaterialApp(
+        theme: ThemeData(useMaterial3: true),
         title: 'QuizCraft',
         debugShowCheckedModeBanner: false,
         home: Consumer<ThemeProvider>(
